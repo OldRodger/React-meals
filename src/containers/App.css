@@ -1,0 +1,33 @@
+*,*::before,*::after{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --font-header: 'Rubik Marker Hatch', 'segoe ui';
+  --default-font: 'segoe ui';
+
+  --color-primary-dark: #2f3640;
+  --color-primary-light: #34495e;
+
+  --color-secondary: #e19a45;
+  --color-secondary-dark: #84460c;
+
+  --color-dark: #3e4348;
+
+
+}
+
+html {
+  font-size: 62.5%;
+
+}
+
+body{
+  font-size: 1.6rem;
+  font-family: var(--default-font);
+  font-weight: 400;
+  line-height: 1.6;
+  background-color: #2f3640;
+}

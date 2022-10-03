@@ -1,0 +1,16 @@
+.Input{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.Input label{
+    font-weight: 700;;
+}
+.Input input{
+    border-radius: 3px;
+    border: 1px solid #aaa;
+    padding: 5px;
+    width: 4rem;
+    text-align: center;
+}

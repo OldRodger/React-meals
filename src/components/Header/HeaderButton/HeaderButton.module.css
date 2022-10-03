@@ -1,0 +1,59 @@
+.Button{
+    padding: 1.2rem 3rem;
+    border-radius: 2.5rem;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 1.3rem;
+    background-color: var(--color-primary-dark);
+    color: white;
+    font-weight: 700;
+    transition: all .35s ease-in;
+}
+
+.pulsate{
+    animation: pulsate .5s linear;
+}
+
+.Button:hover{
+    transform: translateY(-3px);
+}
+
+.Button__icon{
+    width: 2rem;
+    height: 2rem;
+}
+
+.Button__badge{
+    padding: .5rem 1.3rem;
+    background-color: var(--color-primary-light);
+    border-radius: 2.5rem;
+}
+
+
+
+@keyframes pulsate {
+    0%{
+        transform: scale(.95);
+    }
+
+    20%{
+        transform: scale(1.12);
+
+    }
+
+    50%{
+        transform: scale(1);
+
+    }
+
+    80%{
+        transform: scale(.85);
+    }
+
+    100%{
+        transform: scale(1);
+
+    }
+}
